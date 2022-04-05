@@ -119,9 +119,6 @@ body {
     display: flex;
     gap: 30px;
 }
-.menu__item {
-    
-}
 .menu__link {
     font-family: Raleway;
     text-transform: uppercase;
@@ -413,6 +410,9 @@ body {
         flex-direction: column;
         text-align: center;
     }
+    .safe__content {
+        padding-top: 20px;
+    }
 }
 
 .experts {
@@ -518,6 +518,15 @@ body {
     .experts-to-talk__content {
         margin-bottom: 30px;
     }
+    .body-experts-statistics {
+        flex-direction: column;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .body-experts-statistics__item:not(:first-child) {
+        margin-top: 10px;
+    }
 }
 
 .healthcare {
@@ -578,6 +587,16 @@ body {
     letter-spacing: 0.08em;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #616161;    
+}
+
+@media(max-width: 767.98px) {
+    .healthcare-list {
+        flex-direction: column;
+    }
+    .healthcare-list__item:not(:first-child) {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }
 
 .footer {
