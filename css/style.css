@@ -411,7 +411,7 @@ body {
         text-align: center;
     }
     .safe__content {
-        padding-top: 20px;
+        padding-top: 40px;
     }
 }
 
@@ -590,6 +590,9 @@ body {
 }
 
 @media(max-width: 767.98px) {
+    .healthcare {
+        padding-top: 50px;
+    }
     .healthcare-list {
         flex-direction: column;
     }
